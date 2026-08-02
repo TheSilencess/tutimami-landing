@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos Básicos y SEO On-Page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TutiMami | Zapatos, Ropa y Accesorios para Bebés y Niños</title>
+    <meta name="description" content="Encuentra zapatos, ropa y accesorios para bebés y niños en TutiMami. Diseños modernos, excelente calidad y atención personalizada por WhatsApp.">
+    <meta name="keywords" content="ropa de bebe, zapatos infantiles, moda infantil, accesorios para niños, TutiMami, tienda de bebe">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.tutimami.com/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👶</text></svg>">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tutimami.com/">
+    <meta property="og:title" content="TutiMami | Zapatos, Ropa y Accesorios Infantiles">
+    <meta property="og:description" content="Moda infantil de alta calidad al mejor precio. Compra de forma fácil y rápida vía WhatsApp.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=1200&h=630&auto=format&fit=crop">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TutiMami | Zapatos y Ropa para Niños">
+    <meta name="twitter:description" content="Moda infantil de alta calidad. Haz tu pedido directamente por WhatsApp.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=1200&h=630&auto=format&fit=crop">
+
+    <!-- Preconexión de Fuentes (Optimización PageSpeed) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Hojas de Estilo -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JSON-LD Datos Estructurados (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ClothingStore",
+          "@id": "https://www.tutimami.com/#store",
+          "name": "TutiMami",
+          "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4",
+          "url": "https://www.tutimami.com",
+          "telephone": "+50212345678",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Zona 10",
+            "addressLocality": "Ciudad de Guatemala",
+            "addressCountry": "GT"
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "08:00",
+            "closes": "18:00"
+          },
+          "sameAs": [
+            "https://facebook.com/tutimami",
+            "https://instagram.com/tutimami"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.tutimami.com/#website",
+          "url": "https://www.tutimami.com",
+          "name": "TutiMami",
+          "publisher": {"@id": "https://www.tutimami.com/#store"}
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- NAVBAR GLASSMORPHISM -->
+    <header class="navbar-header" id="navbar">
+        <div class="container navbar-container">
+            <a href="#hero" class="logo" aria-label="Página de inicio de TutiMami">
+                Tuti<span>Mami</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu" aria-label="Navegación principal">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Inicio</a></li>
+                    <li><a href="#categorias" class="nav-link">Categorías</a></li>
+                    <li><a href="#productos" class="nav-link">Productos</a></li>
+                    <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <a href="https://wa.me/50212345678?text=Hola%20TutiMami,%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener" class="btn btn-primary nav-btn-mobile">
+                    Comprar por WhatsApp
+                </a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/50212345678?text=Hola%20TutiMami,%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener" class="btn btn-primary nav-btn-desktop">
+                    Comprar por WhatsApp
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero" id="hero">
+            <div class="hero-bg-blob blob-1"></div>
+            <div class="hero-bg-blob blob-2"></div>
+            
+            <div class="container hero-container">
+                <div class="hero-content fade-in-up">
+                    <span class="badge">Novedades 2026</span>
+                    <h1>Todo para los pequeños que más amas.</h1>
+                    <p>Encuentra zapatos, ropa y accesorios para bebés y niños con diseños modernos, excelente calidad y precios accesibles.</p>
+                    <div class="hero-buttons">
+                        <a href="#productos" class="btn btn-secondary">Ver productos</a>
+                        <a href="https://wa.me/50212345678?text=Hola%20TutiMami,%20me%20gustaría%20información%20general" target="_blank" rel="noopener" class="btn btn-primary">
+                            Comprar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper fade-in-up">
+                    <div class="hero-image-card">
+                        <img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?q=80&w=800&auto=format&fit=crop" 
+                             alt="Madre sonriendo mientras viste a su pequeño hijo con ropa infantil moderna" 
+                             width="800" height="600" loading="eager">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORÍAS -->
+        <section class="categories section-padding" id="categorias">
+            <div class="container">
+                <div class="section-title text-center fade-in">
+                    <h2>Nuestras Categorías</h2>
+                    <p>Explora nuestras colecciones diseñadas para cada etapa</p>
+                </div>
+
+                <div class="grid grid-4">
+                    <article class="category-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?q=80&w=500&auto=format&fit=crop" alt="Colección de Zapatos para niños" width="500" height="600" loading="lazy">
+                        <div class="category-overlay">
+                            <h3>Zapatos</h3>
+                        </div>
+                    </article>
+
+                    <article class="category-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=500&auto=format&fit=crop" alt="Ropa moderna infantil" width="500" height="600" loading="lazy">
+                        <div class="category-overlay">
+                            <h3>Ropa</h3>
+                        </div>
+                    </article>
+
+                    <article class="category-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1555252333-9f8e92e65df9?q=80&w=500&auto=format&fit=crop" alt="Ropa suave para Bebés" width="500" height="600" loading="lazy">
+                        <div class="category-overlay">
+                            <h3>Bebés</h3>
+                        </div>
+                    </article>
+
+                    <article class="category-card fade-in">
+                        <img src="https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?q=80&w=500&auto=format&fit=crop" alt="Accesorios para niños y bebés" width="500" height="600" loading="lazy">
+                        <div class="category-overlay">
+                            <h3>Accesorios</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCTOS DESTACADOS -->
+        <section class="products section-padding bg-light" id="productos">
+            <div class="container">
+                <div class="section-title text-center fade-in">
+                    <h2>Productos Destacados</h2>
+                    <p>Lo más buscado para el bienestar y estilo de tus pequeños</p>
+                </div>
+
+                <div class="grid grid-4">
+                    <!-- Producto 1 -->
+                    <article class="product-card fade-in">
+                        <div class="product-image">
+                            <span class="product-badge">Nuevo</span>
+                            <img src="images/foto1.jpeg" alt="Zapato Deportivo Infantil" width="400" height="400" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Sandalias para mujer</h3>
+                            <p class="product-price">Q99.00</p>
+                            <a href="https://wa.me/50212345678?text=Hola%20TutiMami,%20deseo%20consultar%20sobre:%20Tennis%20Ergon%C3%B3micos%20Ni%C3%B1os" target="_blank" rel="noopener" class="btn btn-outline btn-full">
+                                Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Producto 2 -->
+                    <article class="product-card fade-in">
+                        <div class="product-image">
+                            <span class="product-badge">Nuevo</span>
+                            <img src="images/foto2.jpeg" alt="Conjunto Algodón Bebé" width="400" height="400" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Tenis de mujer</h3>
+                            <p class="product-price">Q99.00</p>
+                            <a href="https://wa.me/50212345678?text=Hola%20TutiMami,%20deseo%20consultar%20sobre:%20Conjunto%20Algod%C3%B3n%20Org%C3%A1nico" target="_blank" rel="noopener" class="btn btn-outline btn-full">
+                                Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Producto 3 -->
+                    <article class="product-card fade-in">
+                        <div class="product-image">
+                            <span class="product-badge">Nuevo</span>
+                            <img src="images/foto3.jpeg" alt="Sandalias de Piel Infantiles" width="400" height="400" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Tenis de mujer</h3>
+                            <p class="product-price">Q99.00</p>
+                            <a href="https://wa.me/50212345678?text=Hola%20TutiMami,%20deseo%20consultar%20sobre:%20Sandalias%20Flexibles%20Verano" target="_blank" rel="noopener" class="btn btn-outline btn-full">
+                                Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Producto 4 -->
+                    <article class="product-card fade-in">
+                        <div class="product-image">
+                            <span class="product-badge">Nuevo</span>
+                            <img src="images/foto4.jpeg" alt="Gorrito y Babero de Algodón" width="400" height="400" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Tenis de mujer</h3>
+                            <p class="product-price">Q99.00</p>
+                            <a href="https://wa.me/50212345678?text=Hola%20TutiMami,%20deseo%20consultar%20sobre:%20Set%20Accesorios%20Pastel" target="_blank" rel="noopener" class="btn btn-outline btn-full">
+                                Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- BENEFICIOS -->
+        <section class="benefits section-padding">
+            <div class="container">
+                <div class="grid grid-3">
+                    <div class="benefit-card fade-in">
+                        <div class="benefit-icon">✨</div>
+                        <h3>Productos de Calidad</h3>
+                        <p>Materiales suaves y seguros cuidando la piel delicada de tus pequeños.</p>
+                    </div>
+                    <div class="benefit-card fade-in">
+                        <div class="benefit-icon">💬</div>
+                        <h3>Atención Personalizada</h3>
+                        <p>Te asesoramos directamente por WhatsApp para la talla perfecta.</p>
+                    </div>
+                    <div class="benefit-card fade-in">
+                        <div class="benefit-icon">🚚</div>
+                        <h3>Entregas Rápidas</h3>
+                        <p>Envíos seguros y directos a la puerta de tu hogar.</p>
+                    </div>
+                    <div class="benefit-card fade-in">
+                        <div class="benefit-icon">🎨</div>
+                        <h3>Amplia Variedad</h3>
+                        <p>Estilos modernos y únicos renovados constantemente.</p>
+                    </div>
+                    <div class="benefit-card fade-in">
+                        <div class="benefit-icon">🏷️</div>
+                        <h3>Precios Accesibles</h3>
+                        <p>Excelente relación calidad-precio en todo nuestro catálogo.</p>
+                    </div>
+                    <div class="benefit-card fade-in">
+                        <div class="benefit-icon">🛡️</div>
+                        <h3>Compra Segura</h3>
+                        <p>Procesos confiables y garantizados para tu tranquilidad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NOSOTROS -->
+        <section class="about section-padding" id="nosotros">
+            <div class="container grid grid-2 align-center">
+                <div class="about-image fade-in">
+                    <img src="images/logo.jpeg" alt="Madre e hija compartiendo un momento cálido" width="800" height="600" loading="lazy">
+                </div>
+                <div class="about-content fade-in">
+                    <span class="badge">Nuestra Historia</span>
+                    <h2>Acompañándote en el viaje de la maternidad</h2>
+                    <p>En <strong>TutiMami</strong>, entendemos que vestir a tus hijos es más que elegir ropa; es darles libertad, comodidad y amor en cada paso que dan. Nuestra misión es ofrecer a las familias guatemaltecas alternativas modernas, seguras y accesibles sin comprometer la elegancia ni el estilo.</p>
+                    <p>Cuidamos cada detalle desde la selección del catálogo hasta la entrega final en tus manos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIOS -->
+        <section class="testimonials section-padding bg-light">
+            <div class="container">
+                <div class="section-title text-center fade-in">
+                    <h2>Lo que dicen nuestras mamás</h2>
+                    <p>Familias reales satisfechas con TutiMami</p>
+                </div>
+                <div class="grid grid-3">
+                    <article class="testimonial-card fade-in">
+                        <div class="testimonial-rating" aria-label="Calificación 5 de 5 estrellas">★★★★★</div>
+                        <p class="testimonial-text">"La ropa es preciosa y súper suave. La atención por WhatsApp fue muy rápida y me ayudaron perfectamente con la talla de mi bebé."</p>
+                        <div class="testimonial-user">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=150&auto=format&fit=crop" alt="Foto de Maria Morales" width="50" height="50" loading="lazy">
+                            <div>
+                                <h4>María Morales</h4>
+                                <span>Mamá de Mateo</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card fade-in">
+                        <div class="testimonial-rating" aria-label="Calificación 5 de 5 estrellas">★★★★★</div>
+                        <p class="testimonial-text">"Los zapatos son flexibles y de excelente calidad. Mis hijos juegan súper cómodos. Recomendadísimos al 100%."</p>
+                        <div class="testimonial-user">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop" alt="Foto de Sofia Rossi" width="50" height="50" loading="lazy">
+                            <div>
+                                <h4>Sofía Rossi</h4>
+                                <span>Mamá de Emma</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card fade-in">
+                        <div class="testimonial-rating" aria-label="Calificación 5 de 5 estrellas">★★★★★</div>
+                        <p class="testimonial-text">"Súper fácil hacer el pedido por WhatsApp. Me llegó súper rápido y el empaque venía con un detalle hermoso."</p>
+                        <div class="testimonial-user">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=150&auto=format&fit=crop" alt="Foto de Carla Gomez" width="50" height="50" loading="lazy">
+                            <div>
+                                <h4>Carla Gómez</h4>
+                                <span>Mamá de Lucas</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA SECTION -->
+        <section class="cta section-padding fade-in">
+            <div class="container text-center">
+                <h2>¿Listo para encontrar el outfit perfecto para tus pequeños?</h2>
+                <p>Haz tu pedido o resuelve tus dudas en segundos directamente por WhatsApp.</p>
+                <a href="https://wa.me/50212345678?text=Hola%20TutiMami,%20quiero%20ver%20el%20cat%C3%A1logo%20disponible" target="_blank" rel="noopener" class="btn btn-primary btn-large">
+                    💬 Chatear por WhatsApp Ahora
+                </a>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container grid grid-4">
+            <div class="footer-col">
+                <a href="#hero" class="logo footer-logo">Tuti<span>Mami</span></a>
+                <p>Moda, zapatos y accesorios de alta calidad para bebés y niños. Amor en cada prenda.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>📍 Zona 8 de Mixco, pradera de las flores sector c1 10-50</p>
+                <p>📱 WhatsApp: +502 1234 5678</p>
+                <p>✉️ tutimami@tutimami.com</p>
+            </div>
+            <div class="footer-col">
+                <h4>Horarios</h4>
+                <p>Lunes a Sábado:</p>
+                <p>9:00 AM - 7:00 PM</p>
+            </div>
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61592473377895" target="_blank" rel="noopener" aria-label="Facebook de TutiMami">FB</a>
+                    <a href="https://instagram.com/tutimami" target="_blank" rel="noopener" aria-label="Instagram de TutiMami">IG</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 TutiMami. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- BOTONES FLOTANTES -->
+    <a href="https://wa.me/50212345678?text=Hola%20TutiMami,%20vengo%20desde%20su%20sitio%20web" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chatear por WhatsApp">
+        💬
+    </a>
+
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        ↑
+    </button>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
